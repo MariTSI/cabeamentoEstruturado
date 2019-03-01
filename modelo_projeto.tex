@@ -60,7 +60,7 @@
 %% ====================================
 %% ====================================
 
-\lfoot{\footnotesize \texttt{Prefeitura Municipal de Cornélio Procópio} \textbullet ~Projeto de Cabeamento}
+\lfoot{\footnotesize \texttt{Clinica Médica XYZ} \textbullet ~Projeto de Cabeamento}
 
 
 \cfoot{}
@@ -96,7 +96,7 @@
 %% ====================================
 %% ====================================
 
-\title{Prefeitura Municipal de Cornélio Procópio - Projeto de Cabeamento}					% Title of your article goes here
+\title{Clinica Médica XYZ - Projeto de Cabeamento}					% Title of your article goes here
 
 %% ====================================
 
@@ -133,8 +133,8 @@
 %% mude o resumo  do projeto
 %% ====================================
 %% ====================================
-\initial{E}\textbf{ste será um projeto de rede fictício, usando como exemplo a prefeitura de Cornélio Procópio.
-	Como será um projeto para fins didáticos, usaremos a estrutura imaginária de uma prefeitura com todas as suas segmentações de rede (setores de uma repartição pública) que serão conectadas entre si. O perfil de rede será uma prefeitura de porte pequeno, com sub-redes para cada setor e seus usuários. O objetivo do projeto será conectar todos esses segmentos da prefeitura para que os mesmos possam compartilhar arquivos e dados entre si, mantendo toda a segurança da rede intacta.}
+\initial{E}\textbf{ste será um projeto de rede fictício, usando como base uma clinica médica.
+	Como será um projeto para fins didáticos, usaremos a estrutura imaginária de uma clinica médica com todas os seus pontos na rede que serão conectadas entre si. O perfil de rede será uma sala de porte pequeno, com sub-redes para cada setor e seus usuários. O objetivo do projeto será conectar todos esses pontos da clinica para que os mesmos possam compartilhar arquivos e dados entre si, mantendo toda a segurança da rede intacta.}
 
 %% ====================================
 \begin{figure}
@@ -168,19 +168,14 @@
 \section{Introdução}
 Explique nesta primeira seção qual seria o perfil do caso. Perfil do cliente, quantidade de colaboradores, quantidade de equipamentos de TI atualmente.
 
+
 Indique também nesta seção o escopo do projeto.
 
 Apresente um overview do parque tecnológico do caso.
 
 ---------anotações----------
 
-A Clinica Médica Santa Rita consta atualmente com 5 computadores em um prédio de ????? metros quadrados
-
-Esta com rede instavel e precisa de uma reestruturação 
-
- ..Sera substituida a rede com cat6 
-
-O escopo deste projeto visa apenas a instalação física
+A Clinica Médica XYZ consta atualmente com 4 computadores em um prédio de 100 metros quadrados. Atualmente, encontra-se com a rede instável e precisa de uma reestruturação. Sera substituída a rede com o cabo cat6 e colocado rede sem fio. O escopo deste projeto visa apenas a instalação física.
 
 ---------anotações----------
 
@@ -193,9 +188,7 @@ Explique quais seriam os benefícios provenientes após a execução deste proje
 
 ---------anotações----------
 
-O principal benefício da reestruturação da rede será a estabilidade física da rede provendo redução nos custos de manutenção visto que hoje ela sofre grandes prejuízos devido a instabilidade. 
-
-Outro grande benefício será possibilidade de ampliação da rede.
+O principal benefício da reestruturação da rede será a estabilidade física da rede provendo redução nos custos de manutenção visto que hoje ela sofre grandes prejuízos devido a instabilidade. Outro grande benefício será possibilidade de ampliação da rede.
 
 ---------anotações----------
 
@@ -207,7 +200,9 @@ Coloque o nome de todas as organizações envolvidas. Se for um projeto real, id
 Sugestão: crie uma tabela contento a relação delas.
 
 ---------anotações----------
-A compra dos materiais utilizados sera terceirizada para 
+
+A compra dos materiais utilizados será terceirizada para a diminuição dos custos. A nossa empresa fornecerá toda a parte de cabeamento e estruturação da rede para a clinica médica.
+
 ---------anotações----------
 
 \section{Estado atual}
@@ -218,18 +213,13 @@ Caso tenha rede, deixe claro:
 	\item os passivos de rede atuais:path panels, cabos, etc..;
 	\item as principais reclamações dos usuários. Qual o principal motivo da reestruturação? Efetue uma pesquisa junto aos colaboradores para determinar quais problemas a rede apresenta.
 	
-	---------anotações----------
-	Instabilidade da rede deixando os softwares utilizados para agendamento de consultas inoperantes 
-	
-	Não podendo agendar consultas nem buscar o histórico dos funcionários.
-	---------anotações----------
-	
 	\item Observações. Analise a rede e verifique se há estruturas que não se enquadram nas normas ou que indicam suspeita de problemas.
 	
 	---------anotações----------
 	
-	tubulação mal feita cabos dobrados
-	switch em defasagem 
+	\item Instabilidade da rede deixando os softwares utilizados para agendamento de consultas inoperantes. Não podendo agendar consultas nem buscar o histórico dos funcionários.
+	
+	\item Tubulação mal feita, cabos dobrados e switch em defasagem.
 	
 	
 	---------anotações----------
@@ -242,8 +232,8 @@ Crie uma enumeração dos requisitos do projeto.
 ---------anotações----------
 
 \begin{itemize}
-	\item Utilização do software Clinic precisa pelo menos core i3 nas maquinas para rodas..
-	\item Uso da internet para consulta e para o funcionamento do software...
+	\item Utilização do software Clinic necessita de no mínimo um processador Intel Core i3 ou AMD FX 6300 para o seu funcionamento, junto com 4GB de memória ram.
+	\item Uso da internet para consulta e para o funcionamento do software.
 	
 \end{itemize}
 
@@ -253,21 +243,19 @@ Crie uma enumeração dos requisitos do projeto.
 \section{Usuários e Aplicativos}
 Explique nesta seção os usuários atuais e o perfil de crescimento, se por exemplo, há estimativa na evolução da empresa no que tange a quantidade de usuários, pontos de redes, equipamentos.
 
-Estimasse que a 
+---------anotações----------
 
- 
-
-\subsection{Usuários}
-Crie uma relação da quantidade, perfil de usuários de seu projeto.
+Estimasse que a clínica não apresente evolução no seu número de pontos fixos na rede, mas será deixada toda a estrutura pronta para um possível crescimento da mesma. Também, com a rede wireless sendo aplicada, deverá haver um número de usuários (clientes) utilizando a mesma.
 
 ---------anotações----------
 
-Os usuários da Clinica Médica são três grupos.
+\subsection{Usuários}
+Os usuários da Clinica Médica são quatro grupos.
 \begin{itemize}
-	\item 2 Médicos.
-	\item 4 Enfermeiros.
+	\item 1 Médicos.
+	\item 1 Enfermeiros.
 	\item 2 Auxiliares Administrativos.
-	content...
+	\item Clientes.
 \end{itemize} 
 ---------anotações----------
 
@@ -278,9 +266,11 @@ Crie uma relação dos aplicativos e seus níveis críticos de uso.
 ---------anotações----------
 
 \begin{itemize}
-	\item Médicos: Utilização do software Clinic consultar o prontuário do paciente e internet.
+	\item Médicos: Utilização do software Clinic para consultar o prontuário do paciente e internet.
 	\item Enfermeiros: Utilização do software Clinic para cadastro de procedimentos realizados nos pacientes.
-	\item  Auxiliares Administrativos: Utilização do software Clinic para agendamento de consultas, Internet e pacote office.
+	\item  Auxiliares Administrativos: Utilização do software Clinic para agendamento de consultas, internet e pacote Office.
+	\item Clientes:
+	Utilização da rede sem fio da clínica para navegar na internet.
 \end{itemize}
 
 ---------anotações----------
@@ -293,12 +283,11 @@ Pode ser anexada, em escala ou não.
 Deve conter uma descrição geral, indicando a possível distância entre os pontos de rede e restrições de instalação.
 
 ---------anotações----------
-Qual o estados?
-tem caminhos para os cabos?
-eletrocalha passada?
+
+A estrutura predial atual estava defasada. Será necessário trocar toda a tubulação para passagem dos novos cabos e para alcançar os pontos da rede. O projeto visa o uso correto dos cabos sendo somente o necessário para o estado desejado e para um possível aumento dos nós na rede no futuro, se desejado.
 
 
-Rever a engenharia para passagem correta dos cabos.
+
 ---------anotações----------
 
 \section{Planta Lógica - Elementos estruturados}
